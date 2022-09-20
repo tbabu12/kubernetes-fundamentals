@@ -2,10 +2,13 @@
 
 ## Step-01: Introduction to ReplicaSets
 - What are ReplicaSets?
+ReplicaSet is an object in Kubernetes. The primary objective of replicaset is to define the number of replicas that will run for any type of pod. It is used to guarantee a stable number of pods always running
 - What is the advantage of using ReplicaSets?
 
 ## Step-02: Create ReplicaSet
-
+It creates the replica of pods that are running at the moment.
+It helps in scale up and scale down the application easily.
+Check the status; pods are deployed using simple commands.
 ### Create ReplicaSet
 - Create ReplicaSet
 ```
